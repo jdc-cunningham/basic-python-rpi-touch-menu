@@ -32,3 +32,6 @@ The error window popped up because it was actually touch screen (click triggered
 
 Oof... but there it is
 
+<img src="./working.JPG"/>
+
+Alright I'll wipe this RPi again tomorrow and re-do these steps and produce the video dang.
