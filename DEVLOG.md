@@ -15,3 +15,7 @@ I got the remote ssh extension set up and connected, had a problem
 7:30 PM
 
 Working on this right now, wanting to get a video out today
+
+9:26 PM
+
+Stalled... stuck on some weird issue with the display this one is different from what I used before (DSI)

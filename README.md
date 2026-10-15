@@ -13,6 +13,14 @@ To make a touch screen menu on a Raspberry Pi with an HDMI (or DSI) touch screen
 
 See the YouTube video going over this code.
 
+### Disclaimer
+
+Note this was tested against Debian 13 Trixie on a Pi 4B with a 2.8" Waveshare HDMI touchscreen display
+
+### Set display touch mode
+
+There is a switch on the HDMI hat with two settings: I2C and USB, make sure it's set to I2C
+
 ### Run
 
 #### Step 1 - install dependencies
