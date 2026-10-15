@@ -31,9 +31,9 @@ The installation commands have been placed in the `install-deps.sh` bash script.
 
 Make it executable: `$chmod +x install-deps.sh` then run as `./install-deps.sh`
 
-#### Step 2 - try the openbox file
+#### Step 2 - run openbox
 
-Make it executable `$chmod +x openbox`
+Make it executable with `$chmod +x openbox` and also run `$chmod +x opencv-gui.py`
 
 Then run it `$sudo xinit ./openbox`
 

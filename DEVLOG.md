@@ -23,3 +23,12 @@ Stalled... stuck on some weird issue with the display this one is different from
 9:36 PM
 
 F me... alright I guess this HDMI display has the touch separate, luckily I have a spare DSI touchscreen
+
+9:49 PM
+
+OMG I got it... finally the expected popup with an error said the `opencv-gui.py` file is not executable.
+
+The error window popped up because it was actually touch screen (click triggered)
+
+Oof... but there it is
+
