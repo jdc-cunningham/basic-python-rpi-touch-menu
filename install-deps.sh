@@ -16,4 +16,4 @@ sudo apt install -y \
   xorg \
   unclutter \
   xinput \
-  opencv-python
+  python3-opencv

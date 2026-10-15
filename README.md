@@ -13,8 +13,20 @@ To make a touch screen menu on a Raspberry Pi with an HDMI (or DSI) touch screen
 
 See the YouTube video going over this code.
 
-### Installation
+### Run
+
+#### Step 1 - install dependencies
 
 The installation commands have been placed in the `install-deps.sh` bash script. Note that it requires sudo to run.
 
 Make it executable: `$chmod +x install-deps.sh` then run as `./install-deps.sh`
+
+#### Step 2 - try the openbox file
+
+Make it executable `$chmod +x openbox`
+
+Then run it `$sudo xinit ./openbox`
+
+You should see your display change and show an image of Osaka from Azumanga Daioh
+
+From there you can click through the basic menu example
