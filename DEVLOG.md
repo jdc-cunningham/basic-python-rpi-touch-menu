@@ -19,3 +19,7 @@ Working on this right now, wanting to get a video out today
 9:26 PM
 
 Stalled... stuck on some weird issue with the display this one is different from what I used before (DSI)
+
+9:36 PM
+
+F me... alright I guess this HDMI display has the touch separate, luckily I have a spare DSI touchscreen
