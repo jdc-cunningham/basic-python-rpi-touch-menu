@@ -11,3 +11,7 @@ The HDMI display works out of the box maybe obviously I didn't have to mess with
 6:57 PM
 
 I got the remote ssh extension set up and connected, had a problem
+
+7:30 PM
+
+Working on this right now, wanting to get a video out today
