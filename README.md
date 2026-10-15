@@ -15,4 +15,6 @@ See the YouTube video going over this code.
 
 ### Installation
 
-The installation commands have been placed in the `install-deps.sh` bash script. Note that it requires sudo to run eg. `$sudo ./install-dep.sh`. Look it over to see what is being installed through the `apt` package manager.
+The installation commands have been placed in the `install-deps.sh` bash script. Note that it requires sudo to run.
+
+Make it executable: `$chmod +x install-deps.sh` then run as `./install-deps.sh`
