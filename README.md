@@ -9,17 +9,19 @@ This uses:
 - opencv
 - python
 
-To make a touch screen menu on a Raspberry Pi with an HDMI (or DSI) touch screen display.
+To make a touch screen menu on a Raspberry Pi with a DSI touch screen display.
 
 See the YouTube video going over this code.
 
 ### Disclaimer
 
-Note this was tested against Debian 13 Trixie on a Pi 4B with a 2.8" Waveshare HDMI touchscreen display
+Note this was tested against Debian 13 Trixie on a Pi 4B with a 2.8" Waveshare DSI touchscreen display. The DSI part is important as the HDMI version handles the touchscreen differently/harder.
 
-### Set display touch mode
+### Set display dtoverlay
 
-There is a switch on the HDMI hat with two settings: I2C and USB, make sure it's set to I2C
+`$sudo nano /boot/firmware/config.txt`
+
+Go to the bottom of the file and add: `dtoverlay=vc4-kms-dsi-waveshare-panel,2_8_inch`
 
 ### Run
 
