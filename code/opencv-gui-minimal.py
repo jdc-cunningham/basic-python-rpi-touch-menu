@@ -10,7 +10,7 @@ img = np.zeros((480, 640, 3), dtype=np.uint8) # black bg
 window_name = "OpenCV GUI"
 window_width = 640
 window_height = 480
-img_path = "/home/pi/basic-python-rpi-touch-menu/osaka.png"
+img_path = "/home/pi/basic-python-rpi-touch-menu/code/osaka.png"
 boot_scene = cv2.imread(img_path)
 
 # mouse callback

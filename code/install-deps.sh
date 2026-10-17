@@ -6,7 +6,7 @@ sudo apt upgrade
 
 # set and activate venv
 python -m venv .touch-menu
-source .touch-menu/activate
+source .touch-menu/bin/activate
 python install -r requirements.txt
 
 # deps for GUI
