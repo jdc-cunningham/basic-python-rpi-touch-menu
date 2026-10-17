@@ -1,4 +1,4 @@
-### About
+# About
 
 <img src="./working.JPG"/>
 
@@ -14,11 +14,11 @@ To make a touch screen menu on a Raspberry Pi with a DSI touch screen display.
 
 See the YouTube video going over this code.
 
-### Disclaimer
+# Disclaimer
 
 Note this was tested against Debian 13 Trixie on a Pi 4B with a 2.8" Waveshare DSI touchscreen display. The DSI part is important as the HDMI version handles the touchscreen differently (not natively so more work).
 
-### Set display dtoverlay
+# Set display dtoverlay
 
 This is important to do as the dislay won't show anything (you'll see a flashing green LED on the back) if this step is not done.
 
@@ -26,15 +26,15 @@ This is important to do as the dislay won't show anything (you'll see a flashing
 
 Go to the bottom of the file and add: `dtoverlay=vc4-kms-dsi-waveshare-panel,2_8_inch`
 
-### Run this demo
+# Run this demo
 
-#### Step 1 - install dependencies
+## Step 1 - install dependencies
 
 The installation commands have been placed in the `install-deps.sh` bash script. Note that it requires sudo to run.
 
 Make it executable: `$chmod +x install-deps.sh` then run with `$./install-deps.sh`
 
-#### Step 2 - run openbox
+## Step 2 - run openbox
 
 Make the `openbox` file executable with `$chmod +x openbox` and also run `$chmod +x opencv-gui.py`
 
@@ -44,6 +44,6 @@ You should see your display change and show an image of Osaka from Azumanga Daio
 
 From there you can click through the basic menu example
 
-#### Note
+# Note
 
 There is another file `opencv-gui-minimal.py` this has the very basic code to show an image on the display without a menu system. To use this file you would edit the `openbox` file and change what's on the right of `--startup`.
