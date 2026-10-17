@@ -77,7 +77,7 @@ def on_mouse(event, x, y, flags, param):
 
 # setup the window
 cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
-cv2.setWindowProperty(window_name, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+cv2.setWindowProperty(window_name, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN) # hide GUI window border and menu buttons
 cv2.setMouseCallback(window_name, on_mouse)
 cv2.imshow(window_name, boot_scene)
 
