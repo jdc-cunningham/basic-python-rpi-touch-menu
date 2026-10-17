@@ -1,3 +1,13 @@
+### 10/17/2026
+
+3:43 PM
+
+Alright back on, going to get this video out today
+
+I wiped the SD card to make sure the install commands work as is
+
+---
+
 ### 10/14/2026
 
 6:28 PM
