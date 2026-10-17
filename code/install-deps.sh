@@ -13,7 +13,8 @@ python -m pip install -r requirements.txt
 sudo apt install -y \
   build-essential \
   libcap-dev \
-  openbox obconf \
+  openbox \
+  obconf \
   xinit \
   x11-xserver-utils \
   xterm \
