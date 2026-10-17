@@ -22,6 +22,8 @@ Note this was tested against Debian 13 Trixie on a Pi 4B with a 2.8" Waveshare D
 
 Note this code is intended to be placed in the home directory of your raspberry pi eg. `/home/pi` or `~`.
 
+You need to be in the `code` folder to run the commands below.
+
 # Set display dtoverlay
 
 This is important to do as the dislay won't show anything (you'll see a flashing green LED on the back) if this step is not done.
