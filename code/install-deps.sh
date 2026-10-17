@@ -7,7 +7,7 @@ sudo apt upgrade
 # set and activate venv
 python -m venv .touch-menu
 source .touch-menu/bin/activate
-python install -r requirements.txt
+python -m pip install -r requirements.txt
 
 # deps for GUI
 sudo apt install -y \
@@ -20,5 +20,4 @@ sudo apt install -y \
   menu \
   xorg \
   unclutter \
-  xinput \
-  python3-opencv
+  xinput
